@@ -12,51 +12,53 @@
         <img src="./img/image 6.png">
         <ul>
             <li><a class="menu-item" href="">головна</a></li>
-            <li><a class="menu-item" href="">меню</a></li>
-            <li><a class="menu-item" href="">про нас</a></li>
+            <li><a class="menu-item" href="#menu">меню</a></li>
+            <li><a class="menu-item" href="#about">про нас</a></li>
 
         </ul>
         </div>
     </header>
     <main>
-        <section>
+        <section class="about" id="about">
             <div>
             <h1>Піцерія</h1>
             <p  class="supermark">Знаєш що замовити, натискай на кнопку і ми тобі зателефонуємо. Або переходь до меню</p>
-            <a href="">Дзвінок</a>
-            <a href="">Меню</a> 
+            <div class="btn">
+            <a class="menu-btn" href="#footer">Дзвінок</a>
+            <a class="menu-btn" href="#menu">Меню</a> 
+            </div>
             </div>
             <img src="./img/image 1.png">
         </section>
-        <section>
+        <section id="menu">
             <h2>Меню</h2>
             <article>
                 <img src="./img/image 2.png">
                 <div>
-                    <p>Пепероні</p>
-                    <p>Ціна 95 грн</p>
+                    <p class="name" style="color: #DF9F39">Пепероні</p>
+                    <p class="price">Ціна 95 грн</p>
                 </div>
             </article>
            
             <article>
                 <img src="./img/image 3.png">
                 <div>
-                    <p>Маргарита</p>
-                    <p>Ціна 120 грн</p>
+                    <p class="name" style="color: #e72c2c">Маргарита</p>
+                    <p class="price">Ціна 120 грн</p>
                 </div>
             </article>
 
             <article>
                 <img src="./img/image 4.png">
                 <div>
-                    <p>Каліфорнія</p>
-                    <p>Ціна 160 грн</p>
+                    <p class="name" style="color: #39ae2c">Каліфорнія</p>
+                    <p class="price">Ціна 160 грн</p>
                 </div>
             </article>
         </section>
-        <img src="./img/image 5.png">
+        <img class="pizza" src="./img/image 5.png">
     </main>
-    <footer>
+    <footer id="footer">
         <a href="tel:+380971021020">+380971021020</a>
         <p>місто Львів<br>
             вул. Богдана Хмельницького 14</p>
